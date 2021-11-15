@@ -18,11 +18,10 @@ or:
 npm i -DE @ivangabriele/commitlint-config
 ```
 
-Then add this line in your `.commitlintrc`:
+Then extend it in your `.commitlintrc`:
 
 ```json
 {
-  // ...
   "extends": "@ivangabriele/commitlint-config"
 }
 ```
