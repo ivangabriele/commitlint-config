@@ -4,9 +4,17 @@
   "license": "MIT",
   "version": "0.0.0",
   "main": "./index.json",
+  "scripts": {
+    "prepare": "husky install"
+  },
   "dependencies": {
     "@commitlint/config-conventional": "14.1.0"
   },
+  "devDependencies": {
+    "@ivangabriele/prettier-config": "2.0.2",
+    "husky": "7.0.4"
+  },
+  "prettier": "@ivangabriele/prettier-config",
   "homepage": "https://github.com/ivangabriele/commitlint-config#readme",
   "repository": "ivangabriele/commitlint-config",
   "bugs": {
