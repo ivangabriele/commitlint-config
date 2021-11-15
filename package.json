@@ -1,0 +1,25 @@
+{
+  "name": "@ivangabriele/commitlint-config",
+  "description": "My most commonly used CommitLint configuration.",
+  "license": "MIT",
+  "version": "0.0.0",
+  "main": "./index.json",
+  "dependencies": {
+    "@commitlint/config-conventional": "14.1.0"
+  },
+  "homepage": "https://github.com/ivangabriele/commitlint-config#readme",
+  "repository": "ivangabriele/commitlint-config",
+  "bugs": {
+    "email": "ivan.gabriele@gmail.com",
+    "url": "https://github.com/ivangabriele/commitlint-config/issues"
+  },
+  "author": {
+    "name": "Ivan Gabriele",
+    "email": "ivan.gabriele@gmail.com",
+    "url": "https://www.ivangabriele.com"
+  },
+  "keywords": [
+    "commitlint",
+    "config"
+  ]
+}
