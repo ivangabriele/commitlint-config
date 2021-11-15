@@ -22,7 +22,7 @@ Then extend it in your `.commitlintrc`:
 
 ```json
 {
-  "extends": "@ivangabriele/commitlint-config"
+  "extends": ["@ivangabriele/commitlint-config"]
 }
 ```
 
