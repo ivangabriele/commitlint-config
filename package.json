@@ -16,6 +16,9 @@
     "husky": "7.0.4"
   },
   "prettier": "@ivangabriele/prettier-config",
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/ivangabriele/commitlint-config#readme",
   "repository": "ivangabriele/commitlint-config",
   "bugs": {
