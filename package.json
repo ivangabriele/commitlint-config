@@ -8,6 +8,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@commitlint/cli": "14.1.0",
     "@commitlint/config-conventional": "14.1.0"
   },
   "devDependencies": {
