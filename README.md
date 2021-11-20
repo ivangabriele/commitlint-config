@@ -26,6 +26,20 @@ Then extend it in your `.commitlintrc`:
 }
 ```
 
+And install it as a `commit-msg` hook via husky:
+
+```sh
+npm i -DE husky
+npx husky add .husky/commit-msg 'npx commitlint --edit "$1"'
+```
+
+or:
+
+```sh
+yarn add -DE husky
+yarn husky add .husky/commit-msg 'yarn commitlint --edit "$1"'
+```
+
 ---
 
 [img-license]: https://img.shields.io/github/license/ivangabriele/commitlint-config?style=flat-square
