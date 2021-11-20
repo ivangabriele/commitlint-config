@@ -13,25 +13,29 @@
   },
   "devDependencies": {
     "@ivangabriele/prettier-config": "2.0.2",
+    "@ivangabriele/semantic-release-config-base": "1.1.3",
     "husky": "7.0.4"
-  },
-  "prettier": "@ivangabriele/prettier-config",
-  "publishConfig": {
-    "access": "public"
-  },
-  "homepage": "https://github.com/ivangabriele/commitlint-config#readme",
-  "repository": "ivangabriele/commitlint-config",
-  "bugs": {
-    "email": "ivan.gabriele@gmail.com",
-    "url": "https://github.com/ivangabriele/commitlint-config/issues"
   },
   "author": {
     "name": "Ivan Gabriele",
     "email": "ivan.gabriele@gmail.com",
     "url": "https://www.ivangabriele.com"
   },
+  "bugs": {
+    "email": "ivan.gabriele@gmail.com",
+    "url": "https://github.com/ivangabriele/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/ivangabriele/commitlint-config#readme",
   "keywords": [
     "commitlint",
     "config"
-  ]
+  ],
+  "prettier": "@ivangabriele/prettier-config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "extends": "@ivangabriele/semantic-release-config-base"
+  },
+  "repository": "ivangabriele/commitlint-config"
 }
