@@ -42,14 +42,6 @@ yarn add -DE husky
 yarn husky add .husky/commit-msg 'yarn commitlint --edit "$1"'
 ```
 
-### With Yarn Plug'n'Play
-
-#### Visual Studio Code
-
-```sh
-yarn dlx @yarnpkg/sdks vscode
-```
-
 ---
 
 [img-license]: https://img.shields.io/github/license/ivangabriele/commitlint-config?style=flat-square
