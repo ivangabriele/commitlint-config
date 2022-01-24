@@ -30,6 +30,7 @@ And install it as a `commit-msg` hook via husky:
 
 ```sh
 npm i -DE husky
+npx install-peerdeps -D @ivangabriele/commitlint-config
 npx husky add .husky/commit-msg 'npx commitlint --edit "$1"'
 ```
 
@@ -37,7 +38,16 @@ or:
 
 ```sh
 yarn add -DE husky
+npx install-peerdeps -D @ivangabriele/commitlint-config
 yarn husky add .husky/commit-msg 'yarn commitlint --edit "$1"'
+```
+
+### With Yarn Plug'n'Play
+
+#### Visual Studio Code
+
+```sh
+yarn dlx @yarnpkg/sdks vscode
 ```
 
 ---
