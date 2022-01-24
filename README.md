@@ -10,12 +10,14 @@ Run:
 
 ```sh
 yarn add -DE @ivangabriele/commitlint-config
+npx install-peerdeps -D @ivangabriele/commitlint-config
 ```
 
 or:
 
 ```sh
 npm i -DE @ivangabriele/commitlint-config
+npx install-peerdeps -D @ivangabriele/commitlint-config
 ```
 
 Then extend it in your `.commitlintrc`:
@@ -30,7 +32,6 @@ And install it as a `commit-msg` hook via husky:
 
 ```sh
 npm i -DE husky
-npx install-peerdeps -D @ivangabriele/commitlint-config
 npx husky add .husky/commit-msg 'npx commitlint --edit "$1"'
 ```
 
@@ -38,7 +39,6 @@ or:
 
 ```sh
 yarn add -DE husky
-npx install-peerdeps -D @ivangabriele/commitlint-config
 yarn husky add .husky/commit-msg 'yarn commitlint --edit "$1"'
 ```
 
