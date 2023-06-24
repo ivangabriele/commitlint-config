@@ -8,12 +8,12 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.0",
-    "@commitlint/config-conventional": "17.0.0",
-    "@ivangabriele/prettier-config": "3.0.2",
-    "@ivangabriele/semantic-release-config-base": "2.0.2",
-    "husky": "8.0.1",
-    "prettier": "2.6.2"
+    "@commitlint/cli": "17.6.6",
+    "@commitlint/config-conventional": "17.6.6",
+    "@ivangabriele/prettier-config": "3.1.0",
+    "@ivangabriele/semantic-release-config-base": "2.1.0",
+    "husky": "8.0.3",
+    "prettier": "2.8.8"
   },
   "peerDependencies": {
     "@commitlint/cli": "^17.0.0",
