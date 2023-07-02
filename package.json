@@ -5,7 +5,7 @@
   "version": "1.0.2",
   "main": "./index.json",
   "scripts": {
-    "prepare": "husky install"
+    "dev:setup": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
