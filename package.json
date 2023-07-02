@@ -41,5 +41,6 @@
   "release": {
     "extends": "@ivangabriele/semantic-release-config-base"
   },
-  "repository": "ivangabriele/commitlint-config"
+  "repository": "ivangabriele/commitlint-config",
+  "packageManager": "yarn@3.6.1"
 }
