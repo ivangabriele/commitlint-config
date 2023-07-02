@@ -9,37 +9,64 @@ My most commonly used CommitLint configuration.
 Run:
 
 ```sh
-yarn add -DE @ivangabriele/commitlint-config
-npx install-peerdeps -D @ivangabriele/commitlint-config
+yarn add -DE @commitlint/cli @ivangabriele/commitlint-config husky lint-staged
 ```
 
-or:
+Create `/.husky/commit-msg`:
 
 ```sh
-npm i -DE @ivangabriele/commitlint-config
-npx install-peerdeps -D @ivangabriele/commitlint-config
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+[ -n "$CI" ] && exit 0
+
+yarn commitlint --edit "$1"
 ```
 
-Then extend it in your `.commitlintrc`:
+Create `/.husky/pre-commit`:
+
+```sh
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+[ -n "$CI" ] && exit 0
+
+yarn lint-staged
+```
+
+Give them execution rights:
+
+```sh
+chmod +x .husky/commit-msg .husky/pre-commit
+```
+
+Create `/.commitlintrc`:
 
 ```json
 {
+  "$schema": "https://json.schemastore.org/commitlintrc",
   "extends": ["@ivangabriele/commitlint-config"]
 }
 ```
 
-And install it as a `commit-msg` hook via husky:
+Update `/package.json`:
 
-```sh
-npm i -DE husky
-npx husky add .husky/commit-msg 'npx commitlint --edit "$1"'
-```
-
-or:
-
-```sh
-yarn add -DE husky
-yarn husky add .husky/commit-msg 'yarn commitlint --edit "$1"'
+```json
+{
+  // ...
+  "scripts": {
+    // ...
+    "prepare": "husky install"
+    // ...
+  },
+  // ...
+  "//": "https://github.com/okonet/lint-staged/issues/825#issuecomment-674575655",
+  "lint-staged": {
+    "*.{json,md,yaml,yml}": "prettier --write",
+    "*.{js,jsx,ts,tsx}": ["yarn eslint --ext js,jsx,ts,tsx", "bash -c 'yarn test:type'"]
+  }
+  // ...
+}
 ```
 
 ---

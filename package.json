@@ -5,20 +5,23 @@
   "version": "1.0.2",
   "main": "./index.json",
   "scripts": {
-    "dev:setup": "husky install"
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "17.6.6"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
-    "@commitlint/config-conventional": "17.6.6",
     "@ivangabriele/prettier-config": "3.1.0",
     "@ivangabriele/semantic-release-config-base": "2.1.0",
     "husky": "8.0.3",
+    "lint-staged": "13.2.3",
     "prettier": "2.8.8"
   },
-  "peerDependencies": {
-    "@commitlint/cli": "^17.0.0",
-    "@commitlint/config-conventional": "^17.0.0",
-    "husky": "^8.0.0"
+  "prettier": "@ivangabriele/prettier-config",
+  "//": "https://github.com/okonet/lint-staged/issues/825#issuecomment-674575655",
+  "lint-staged": {
+    "*.{json,md,yaml,yml}": "prettier --write"
   },
   "author": {
     "name": "Ivan Gabriele",
@@ -34,7 +37,6 @@
     "commitlint",
     "config"
   ],
-  "prettier": "@ivangabriele/prettier-config",
   "publishConfig": {
     "access": "public"
   },
