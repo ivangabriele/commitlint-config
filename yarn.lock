@@ -307,7 +307,7 @@ __metadata:
     "@commitlint/cli": 17.6.6
     "@commitlint/config-conventional": 17.6.6
     "@ivangabriele/prettier-config": 3.1.0
-    "@ivangabriele/semantic-release-config-base-yarn": 3.0.1
+    "@ivangabriele/semantic-release-config-base-yarn": 3.0.2
     husky: 8.0.3
     lint-staged: 13.2.3
     prettier: 2.8.8
@@ -324,17 +324,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivangabriele/semantic-release-config-base-yarn@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@ivangabriele/semantic-release-config-base-yarn@npm:3.0.1"
+"@ivangabriele/semantic-release-config-base-yarn@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@ivangabriele/semantic-release-config-base-yarn@npm:3.0.2"
   dependencies:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/commit-analyzer": 10.0.1
+    "@semantic-release/exec": 6.0.3
     "@semantic-release/github": 9.0.3
     "@semantic-release/npm": 10.0.4
     "@semantic-release/release-notes-generator": 11.0.3
     semantic-release: 19.0.3
-  checksum: 7386cb3e06d339739086a2b3c1ae093f25d734bb734cda0532cf873b57c1656e23cec3988f5a549df6a580cc4d8ddf5c36368aa7bed4f8b7c4e7af56fb4d88a0
+  checksum: 03978cc2e5095a41f4d9a526f8ad661ab8bfe6c336ede3816e05b16e82f646534b768ca82c30dfd1d95f561564ffcdeda8ab888a063cb92435dbd56923036251
   languageName: node
   linkType: hard
 
@@ -1144,6 +1145,22 @@ __metadata:
   version: 4.0.0
   resolution: "@semantic-release/error@npm:4.0.0"
   checksum: 01213195ae3b8e2490b0d0db79525f7abbb1cc795494b46b8022f81ab1f24f5eab6232b549528b437cff872a66d36649f2fb4f3b56eba351d947a02cccc81ecc
+  languageName: node
+  linkType: hard
+
+"@semantic-release/exec@npm:6.0.3":
+  version: 6.0.3
+  resolution: "@semantic-release/exec@npm:6.0.3"
+  dependencies:
+    "@semantic-release/error": ^3.0.0
+    aggregate-error: ^3.0.0
+    debug: ^4.0.0
+    execa: ^5.0.0
+    lodash: ^4.17.4
+    parse-json: ^5.0.0
+  peerDependencies:
+    semantic-release: ">=18.0.0"
+  checksum: c6ad2f02ff01a4709c4914f560d0343efea9afe993c733ff971da8bf89604a1460d87b26a1a2ace5992c5ace8e8d384cf314504e0c4b623fc8433e8e8d9e2fe0
   languageName: node
   linkType: hard
 
