@@ -307,7 +307,7 @@ __metadata:
     "@commitlint/cli": 17.6.6
     "@commitlint/config-conventional": 17.6.6
     "@ivangabriele/prettier-config": 3.1.0
-    "@ivangabriele/semantic-release-config-base-yarn": 3.0.2
+    "@ivangabriele/semantic-release-config-base-yarn": 3.0.3
     husky: 8.0.3
     lint-staged: 13.2.3
     prettier: 2.8.8
@@ -324,9 +324,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivangabriele/semantic-release-config-base-yarn@npm:3.0.2":
-  version: 3.0.2
-  resolution: "@ivangabriele/semantic-release-config-base-yarn@npm:3.0.2"
+"@ivangabriele/semantic-release-config-base-yarn@npm:3.0.3":
+  version: 3.0.3
+  resolution: "@ivangabriele/semantic-release-config-base-yarn@npm:3.0.3"
   dependencies:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/commit-analyzer": 10.0.1
@@ -334,8 +334,8 @@ __metadata:
     "@semantic-release/github": 9.0.3
     "@semantic-release/npm": 10.0.4
     "@semantic-release/release-notes-generator": 11.0.3
-    semantic-release: 19.0.3
-  checksum: 03978cc2e5095a41f4d9a526f8ad661ab8bfe6c336ede3816e05b16e82f646534b768ca82c30dfd1d95f561564ffcdeda8ab888a063cb92435dbd56923036251
+    semantic-release: 19.0.5
+  checksum: e342147213e155d91e1604dd1eb27d2be2ac06b97bb0a908f423cb442da0be01467959c8fc5be5ccd53d80815c31cf4ccff551acffcc9ec6f5d7834ff44dbbcf
   languageName: node
   linkType: hard
 
@@ -1911,6 +1911,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:*, chalk@npm:^5.2.0":
+  version: 5.3.0
+  resolution: "chalk@npm:5.3.0"
+  checksum: 623922e077b7d1e9dedaea6f8b9e9352921f8ae3afe739132e0e00c275971bdd331268183b2628cf4ab1727c45ea1f28d7e24ac23ce1db1eb653c414ca8a5a80
+  languageName: node
+  linkType: hard
+
 "chalk@npm:5.2.0":
   version: 5.2.0
   resolution: "chalk@npm:5.2.0"
@@ -1929,7 +1936,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -1943,13 +1950,6 @@ __metadata:
   version: 5.0.0
   resolution: "chalk@npm:5.0.0"
   checksum: 6eba7c518b9aa5fe882ae6d14a1ffa58c418d72a3faa7f72af56641f1bbef51b645fca1d6e05d42357b7d3c846cd504c0b7b64d12309cdd07867e3b4411e0d01
-  languageName: node
-  linkType: hard
-
-"chalk@npm:^5.2.0":
-  version: 5.3.0
-  resolution: "chalk@npm:5.3.0"
-  checksum: 623922e077b7d1e9dedaea6f8b9e9352921f8ae3afe739132e0e00c275971bdd331268183b2628cf4ab1727c45ea1f28d7e24ac23ce1db1eb653c414ca8a5a80
   languageName: node
   linkType: hard
 
@@ -6465,9 +6465,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:19.0.3":
-  version: 19.0.3
-  resolution: "semantic-release@npm:19.0.3"
+"semantic-release@npm:19.0.5":
+  version: 19.0.5
+  resolution: "semantic-release@npm:19.0.5"
   dependencies:
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/error": ^3.0.0
@@ -6499,7 +6499,7 @@ __metadata:
     yargs: ^16.2.0
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 89afc3bba5b7addc503e92387de76274bf7f8b6c955ea4338760719f91ed730df9774ccfc58b28a0c739eb1eb3bed1f9c9bef393dda1156c4481197bb6671760
+  checksum: e72d7e039ca062a322128da185797fe4e3e23ab8b3dba1e906aaff654cd292c60bbb91776570815cac982d37550a84cfb5e3e13194ecc168ac51f866d7a07584
   languageName: node
   linkType: hard
 
