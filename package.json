@@ -15,7 +15,7 @@
     "@ivangabriele/prettier-config": "3.1.0",
     "@ivangabriele/semantic-release-config-base-yarn": "3.0.3",
     "husky": "8.0.3",
-    "lint-staged": "13.2.3",
+    "lint-staged": "14.0.1",
     "prettier": "2.8.8",
     "semantic-release": "21.0.6"
   },
