@@ -8,22 +8,22 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "17.6.6"
+    "@commitlint/config-conventional": "17.8.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.6.6",
+    "@commitlint/cli": "17.8.1",
     "@ivangabriele/prettier-config": "3.1.0",
     "@ivangabriele/semantic-release-config-base-yarn": "3.0.3",
     "husky": "8.0.3",
-    "lint-staged": "13.2.3",
+    "lint-staged": "13.3.0",
     "prettier": "2.8.8",
-    "semantic-release": "21.0.6"
+    "semantic-release": "21.1.2"
   },
   "//": "https://github.com/okonet/lint-staged/issues/825#issuecomment-674575655",
   "lint-staged": {
     "*.{json,md,yaml,yml}": "prettier --write"
   },
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@3.8.0",
   "prettier": "@ivangabriele/prettier-config",
   "release": {
     "extends": "@ivangabriele/semantic-release-config-base-yarn"
