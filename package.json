@@ -23,7 +23,7 @@
   "lint-staged": {
     "*.{json,md,yaml,yml}": "prettier --write"
   },
-  "packageManager": "yarn@3.8.0",
+  "packageManager": "yarn@4.1.0",
   "prettier": "@ivangabriele/prettier-config",
   "release": {
     "extends": "@ivangabriele/semantic-release-config-base-yarn"
