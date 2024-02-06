@@ -32,13 +32,10 @@
   },
   "author": {
     "name": "Ivan Gabriele",
-    "email": "ivan.gabriele@gmail.com",
+    "email": "ivan.gabriele@protonmail.com",
     "url": "https://www.ivangabriele.com"
   },
-  "bugs": {
-    "email": "ivan.gabriele@gmail.com",
-    "url": "https://github.com/ivangabriele/commitlint-config/issues"
-  },
+  "bugs": "https://github.com/ivangabriele/commitlint-config/issues",
   "homepage": "https://github.com/ivangabriele/commitlint-config#readme",
   "keywords": [
     "commitlint",
