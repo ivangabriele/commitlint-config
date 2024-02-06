@@ -24,6 +24,9 @@
   },
   "packageManager": "yarn@4.1.0",
   "prettier": "@ivangabriele/prettier-config",
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "extends": "@ivangabriele/semantic-release-config-base-yarn"
   },
@@ -41,8 +44,8 @@
     "commitlint",
     "config"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": "ivangabriele/commitlint-config"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ivangabriele/commitlint-config.git"
+  }
 }
