@@ -3,7 +3,7 @@
 
 __metadata:
   version: 8
-  cacheKey: 10
+  cacheKey: 10c0
 
 "@babel/code-frame@npm:^7.0.0":
   version: 7.16.0
@@ -308,7 +308,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:17.8.1"
     "@ivangabriele/prettier-config": "npm:3.1.0"
     "@ivangabriele/semantic-release-config-base-yarn": "npm:3.0.3"
-    husky: "npm:8.0.3"
+    husky: "npm:9.0.10"
     lint-staged: "npm:13.3.0"
     prettier: "npm:2.8.8"
     semantic-release: "npm:21.1.2"
@@ -3454,12 +3454,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:8.0.3":
-  version: 8.0.3
-  resolution: "husky@npm:8.0.3"
+"husky@npm:9.0.10":
+  version: 9.0.10
+  resolution: "husky@npm:9.0.10"
   bin:
-    husky: lib/bin.js
-  checksum: 8/837bc7e4413e58c1f2946d38fb050f5d7324c6f16b0fd66411ffce5703b294bd21429e8ba58711cd331951ee86ed529c5be4f76805959ff668a337dbfa82a1b0
+    husky: bin.mjs
+  checksum: 10c0/585d95fec151d2e3fba1a8d97c1290dee40b83eb2b8850afae0805e183b3b3ec45bfeef97b2d0c4ae16f1c1bf19788b9129627d9ba02d924c874632207e33b93
   languageName: node
   linkType: hard
 
