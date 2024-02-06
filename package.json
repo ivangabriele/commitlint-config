@@ -14,7 +14,7 @@
     "@commitlint/cli": "17.8.1",
     "@ivangabriele/prettier-config": "3.1.0",
     "@ivangabriele/semantic-release-config-base-yarn": "3.0.3",
-    "husky": "8.0.3",
+    "husky": "9.0.10",
     "lint-staged": "13.3.0",
     "prettier": "2.8.8",
     "semantic-release": "21.1.2"
