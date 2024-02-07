@@ -83,4 +83,4 @@ Please refer to the [contribution guidelines](./CONTRIBUTING.md) for information
 [img-npm]: https://img.shields.io/npm/v/@ivangabriele/commitlint-config?style=for-the-badge
 [lnk-github]: https://github.com/ivangabriele/commitlint-config/actions?query=branch%3Amain++
 [lnk-license]: https://github.com/ivangabriele/commitlint-config/blob/main/LICENSE
-[lnk-npm]: ttps://www.npmjs.com/package/@ivangabriele/commitlint-config
+[lnk-npm]: https://www.npmjs.com/package/@ivangabriele/commitlint-config
