@@ -1,3 +1,5 @@
+## [2.0.1](https://github.com/ivangabriele/commitlint-config/compare/v2.0.0...v2.0.1) (2024-02-07)
+
 ## [2.0.0](https://github.com/ivangabriele/commitlint-config/compare/v1.1.0...v2.0.0) (2024-02-07)
 
 
