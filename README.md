@@ -5,9 +5,22 @@
 
 My most commonly used CommitLint configuration.
 
+---
+
+- [Usage](#usage)
+- [Contribute](#contribute)
+
+---
+
 ## Usage
 
 Run:
+
+```sh
+npm i -DE @commitlint/cli @ivangabriele/commitlint-config husky lint-staged
+```
+
+or:
 
 ```sh
 yarn add -DE @commitlint/cli @ivangabriele/commitlint-config husky lint-staged
@@ -69,3 +82,7 @@ Update `/package.json`:
   // ...
 }
 ```
+
+## Contribute
+
+Please refer to the [contribution guidelines](CONTRIBUTING.md) for information on how to contribute to this project.
