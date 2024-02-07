@@ -683,14 +683,14 @@ __metadata:
     "@commitlint/cli": "npm:18.6.0"
     "@commitlint/config-conventional": "npm:18.6.0"
     "@ivangabriele/prettier-config": "npm:5.0.0"
-    "@ivangabriele/semantic-release-config-base": "npm:4.0.1"
+    "@ivangabriele/semantic-release-config-base": "npm:4.1.2"
     "@types/jest": "npm:29.5.12"
     execa: "npm:8.0.1"
     husky: "npm:9.0.10"
     jest: "npm:29.7.0"
     lint-staged: "npm:15.2.2"
     prettier: "npm:3.2.5"
-    semantic-release: "npm:23.0.1"
+    semantic-release: "npm:23.0.2"
   peerDependencies:
     "@commitlint/cli": ^18
     husky: ^9
@@ -706,9 +706,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivangabriele/semantic-release-config-base@npm:4.0.1":
-  version: 4.0.1
-  resolution: "@ivangabriele/semantic-release-config-base@npm:4.0.1"
+"@ivangabriele/semantic-release-config-base@npm:4.1.2":
+  version: 4.1.2
+  resolution: "@ivangabriele/semantic-release-config-base@npm:4.1.2"
   dependencies:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/commit-analyzer": "npm:11.1.0"
@@ -716,7 +716,7 @@ __metadata:
     "@semantic-release/npm": "npm:11.0.2"
     "@semantic-release/release-notes-generator": "npm:12.1.0"
     semantic-release: "npm:23.0.1"
-  checksum: 10c0/fc3799af4f34534ab2fae236e313a2902f96c4bdcff4982b909c6864c55b17c0594f8769a4b0fd8fe760f7769cbd4bb94495528ec96827be45eab46e3aaa44f8
+  checksum: 10c0/99690aa48671462680e59b5b71ce8da59757eddf0bdf2864f9303ab362bb830ecc8923e00d970543a492a9089ed8faa7e9ff9338b2a449f6d51203093f132301
   languageName: node
   linkType: hard
 
@@ -5362,6 +5362,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"marked@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "marked@npm:12.0.0"
+  bin:
+    marked: bin/marked.js
+  checksum: 10c0/485c0d2a1b59f7d305435d2d65aac477eee8e47ccd686e06c35145b7186c399fd741543f7c0bb02e67d53b3cc0341f491d967ca40a5c3aa49c6cc466e1f5d872
+  languageName: node
+  linkType: hard
+
 "meow@npm:^12.0.1":
   version: 12.1.1
   resolution: "meow@npm:12.1.1"
@@ -6934,6 +6943,45 @@ __metadata:
   bin:
     semantic-release: bin/semantic-release.js
   checksum: 10c0/c12a768a14c09c09292c774753d8d22f885ec0f50c96e2926cef408c7d91367e1f684115d2daf0bb2c663b7319fc57159c980876374998278c7c610a0807f9a1
+  languageName: node
+  linkType: hard
+
+"semantic-release@npm:23.0.2":
+  version: 23.0.2
+  resolution: "semantic-release@npm:23.0.2"
+  dependencies:
+    "@semantic-release/commit-analyzer": "npm:^11.0.0"
+    "@semantic-release/error": "npm:^4.0.0"
+    "@semantic-release/github": "npm:^9.0.0"
+    "@semantic-release/npm": "npm:^11.0.0"
+    "@semantic-release/release-notes-generator": "npm:^12.0.0"
+    aggregate-error: "npm:^5.0.0"
+    cosmiconfig: "npm:^9.0.0"
+    debug: "npm:^4.0.0"
+    env-ci: "npm:^11.0.0"
+    execa: "npm:^8.0.0"
+    figures: "npm:^6.0.0"
+    find-versions: "npm:^5.1.0"
+    get-stream: "npm:^6.0.0"
+    git-log-parser: "npm:^1.2.0"
+    hook-std: "npm:^3.0.0"
+    hosted-git-info: "npm:^7.0.0"
+    import-from-esm: "npm:^1.3.1"
+    lodash-es: "npm:^4.17.21"
+    marked: "npm:^12.0.0"
+    marked-terminal: "npm:^7.0.0"
+    micromatch: "npm:^4.0.2"
+    p-each-series: "npm:^3.0.0"
+    p-reduce: "npm:^3.0.0"
+    read-pkg-up: "npm:^11.0.0"
+    resolve-from: "npm:^5.0.0"
+    semver: "npm:^7.3.2"
+    semver-diff: "npm:^4.0.0"
+    signale: "npm:^1.2.1"
+    yargs: "npm:^17.5.1"
+  bin:
+    semantic-release: bin/semantic-release.js
+  checksum: 10c0/9c6bc12675fa2141a8468163c2e78d160ad7604759088daecda25a173045250223782fed2fd6a192bcd798bc45cef592ec55448ec7de155558e6ef939a956b99
   languageName: node
   linkType: hard
 
