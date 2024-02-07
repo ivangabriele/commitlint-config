@@ -7,7 +7,8 @@
   "main": "./index.cjs",
   "scripts": {
     "prepare": "husky",
-    "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
+    "test:lint": "yarn prettier --check .",
+    "test:unit": "yarn node --experimental-vm-modules $(yarn bin jest)"
   },
   "dependencies": {
     "@commitlint/config-conventional": "18.6.0"
