@@ -29,9 +29,6 @@ yarn add -DE @commitlint/cli @ivangabriele/commitlint-config husky lint-staged
 Create `/.husky/commit-msg`:
 
 ```sh
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
 [ -n "$CI" ] && exit 0
 
 yarn commitlint --edit "$1"
@@ -40,9 +37,6 @@ yarn commitlint --edit "$1"
 Create `/.husky/pre-commit`:
 
 ```sh
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
 [ -n "$CI" ] && exit 0
 
 yarn lint-staged
@@ -70,14 +64,8 @@ Update `/package.json`:
   // ...
   "scripts": {
     // ...
-    "prepare": "husky install"
+    "prepare": "husky"
     // ...
-  },
-  // ...
-  "//": "https://github.com/okonet/lint-staged/issues/825#issuecomment-674575655",
-  "lint-staged": {
-    "*.{json,md,yaml,yml}": "prettier --write",
-    "*.{js,jsx,ts,tsx}": ["yarn eslint --ext js,jsx,ts,tsx", "bash -c 'yarn test:type'"]
   }
   // ...
 }
