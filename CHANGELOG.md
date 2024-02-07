@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/ivangabriele/commitlint-config/compare/v2.0.2...v2.0.3) (2024-02-07)
+
+
+### Bug Fixes
+
+* **ci:** add missing permissions in Release workflow ([08b11f9](https://github.com/ivangabriele/commitlint-config/commit/08b11f91a83e6c362e08fa0232baeed0bde4c516))
+
 ## [2.0.1](https://github.com/ivangabriele/commitlint-config/compare/v2.0.0...v2.0.1) (2024-02-07)
 
 ## [2.0.0](https://github.com/ivangabriele/commitlint-config/compare/v1.1.0...v2.0.0) (2024-02-07)

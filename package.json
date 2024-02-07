@@ -2,7 +2,7 @@
   "name": "@ivangabriele/commitlint-config",
   "description": "My most commonly used CommitLint configuration.",
   "license": "MIT",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "type": "module",
   "main": "./index.cjs",
   "scripts": {
