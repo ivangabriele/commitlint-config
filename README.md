@@ -1,7 +1,7 @@
 # My CommitLint Configuration
 
-[![MIT License](https://img.shields.io/github/license/ivangabriele/commitlint-config?style=for-the-badge)](https://github.com/ivangabriele/commitlint-config/blob/main/LICENSE)
-[![NPM](https://img.shields.io/npm/v/@ivangabriele/commitlint-config?style=for-the-badge)](https://www.npmjs.com/package/@ivangabriele/commitlint-config)
+[![MIT License][img-license]][lnk-license] [![GitHub Check Workflow Status][img-github]][lnk-github]
+[![npm][img-npm]][lnk-npm]
 
 My most commonly used CommitLint configuration.
 
@@ -73,4 +73,14 @@ Update `/package.json`:
 
 ## Contribute
 
-Please refer to the [contribution guidelines](CONTRIBUTING.md) for information on how to contribute to this project.
+Please refer to the [contribution guidelines](./CONTRIBUTING.md) for information on how to contribute to this project.
+
+---
+
+[img-github]:
+  https://img.shields.io/github/actions/workflow/status/ivangabriele/commitlint-config/check.yml?branch=main&label=CI&style=for-the-badge
+[img-license]: https://img.shields.io/github/license/ivangabriele/commitlint-config?style=for-the-badge
+[img-npm]: https://img.shields.io/npm/v/@ivangabriele/commitlint-config?style=for-the-badge
+[lnk-github]: https://github.com/ivangabriele/commitlint-config/actions?query=branch%3Amain++
+[lnk-license]: https://github.com/ivangabriele/commitlint-config/blob/main/LICENSE
+[lnk-npm]: ttps://www.npmjs.com/package/@ivangabriele/commitlint-config
