@@ -7,7 +7,6 @@ on:
 jobs:
   merge:
     name: Merge Release Pull Request
-    # We thus use this to bypass above branch match issue:
     if: ${{ startsWith(github.head_ref, 'ci-release-v') }}
     runs-on: ubuntu-latest
     steps:
@@ -15,6 +14,6 @@ jobs:
         uses: pascalgn/automerge-action@v0.16.2
         # https://github.com/pascalgn/automerge-action#configuration
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MERGE_LABELS: ''
           MERGE_METHOD: squash
