@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/ivangabriele/commitlint-config/compare/v1.1.0...v2.0.0) (2024-02-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* **peer-deps:** @commitlint/cli must be v18, husky must be v9.
+
+### Build System
+
+* **peer-deps:** enforce @commitlint/cli to ^18 and husky to ^9 ([1fafcb3](https://github.com/ivangabriele/commitlint-config/commit/1fafcb3c55bf63a3008243b63adf20ab1b77222a))
+
 # [1.1.0](https://github.com/ivangabriele/commitlint-config/compare/v1.0.6...v1.1.0) (2023-07-04)
 
 
