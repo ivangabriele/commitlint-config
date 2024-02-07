@@ -691,6 +691,9 @@ __metadata:
     lint-staged: "npm:15.2.2"
     prettier: "npm:3.2.5"
     semantic-release: "npm:23.0.1"
+  peerDependencies:
+    "@commitlint/cli": ^18
+    husky: ^9
   languageName: unknown
   linkType: soft
 

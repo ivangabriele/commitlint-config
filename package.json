@@ -25,6 +25,10 @@
     "prettier": "3.2.5",
     "semantic-release": "23.0.1"
   },
+  "peerDependencies": {
+    "@commitlint/cli": "^18",
+    "husky": "^9"
+  },
   "lint-staged": {
     "*.{json,md,yaml,yml}": "prettier --write"
   },
