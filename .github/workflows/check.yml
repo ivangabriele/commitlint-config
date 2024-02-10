@@ -17,7 +17,7 @@ jobs:
           node-version: 20
       - name: Install
         run: yarn --immutable
-      - name: Test
+      - name: Lint
         run: yarn test:lint
 
   test:
